@@ -1,0 +1,8 @@
+Given an array of size N. All elements of array <= N. You need to answer M queries. Each query 
+is of the form L, R. You need to answer the count of values in range [L, R] which are repeated
+at least 3 times.
+Example: Let the array be {1, 2, 3, 1, 1, 2, 1, 2, 3, 1} (zero indexed)
+Query: L = 0, R = 4. Answer = 1. Values in the range [L, R] = {1, 2, 3, 1, 1} only 1 is repeated at 
+least 3 times.
+Query: L = 1, R = 8. Answer = 2. Values in the range [L, R] = {2, 3, 1, 1, 2, 1, 2, 3} 1 is repeated 3 times 
+and 2 is repeated 3 times. Number of elements repeated at least 3 times = Answer = 2.

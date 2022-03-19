@@ -1,0 +1,5 @@
+2. Modular exponentiation
+Exponentiation is a mathematical operation that is expressed as xⁿ and computed as xⁿ=x⋅x⋅...⋅x (n times).
+•Basic method
+While calculating xⁿ, the most basic solution is broken down into x⋅xⁿ. The new problem is xn−1,which is 
+similar to the original problem. Therefore, like in original problem, it is further broken down to x⋅x⋅xn−2.
